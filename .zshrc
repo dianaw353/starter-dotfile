@@ -56,3 +56,5 @@ else
     echo "Hyprland is not running."
 fi
 export PATH=$PATH:/home/diana/.cargo/bin
+
+cat ~/.cache/wal/sequences
