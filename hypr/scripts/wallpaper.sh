@@ -21,13 +21,13 @@ blur=$(cat $blur_file)
 # Create cache file if not exists
 if [ ! -f $cache_file ] ;then
     touch $cache_file
-    echo "$HOME/wallpaper/default.jpg" > "$cache_file"
+    echo "$HOME/wallpaper/wallpaper2.jpg" > "$cache_file"
 fi
 
 # Create rasi file if not exists
 if [ ! -f $rasi_file ] ;then
     touch $rasi_file
-    echo "* { current-image: url(\"$HOME/wallpaper/default.jpg\", height); }" > "$rasi_file"
+    echo "* { current-image: url(\"$HOME/wallpaper/wallpaper2.jpg\", height); }" > "$rasi_file"
 fi
 
 current_wallpaper=$(cat "$cache_file")
