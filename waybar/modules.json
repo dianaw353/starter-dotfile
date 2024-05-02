@@ -158,11 +158,11 @@
     },    
 
     // ChatGPT Launcher
-    //"custom/chatgpt": {
-    //    "format": " ",
-    //    "on-click": "firefox --app=https://chat.openai.com",
-    //    "tooltip": false
-    //},
+    "custom/chatgpt": {
+        "format": " ",
+        "on-click": "firefox --app=https://chat.openai.com",
+        "tooltip": false
+    },
 
     // Calculator
     "custom/calculator": {
@@ -282,9 +282,9 @@
         "orientation": "horizontal",
         "modules": [
             // START CHATGPT TOOGLE
-            "custom/chatgpt",
+            //"custom/chatgpt",
             // END CHATGPT TOOGLE
-            "custom/settings",
+            //"custom/settings",
             "custom/waybarthemes",
             "custom/wallpaper"
         ]
