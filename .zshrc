@@ -51,7 +51,7 @@ zinit light sharkdp/bat
 
 # vim:ft=zsh
 if pgrep -x "Hyprland" > /dev/null; then
-    pfetch
+    fastfetch
 else
     echo "Hyprland is not running."
 fi
