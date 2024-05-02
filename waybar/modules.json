@@ -48,6 +48,7 @@
     "hyprland/window": {
         "rewrite": {
             "(.*) - Brave": "$1",
+            "(.*) - Mozilla Firefox": "$1",
             "(.*) - Chromium": "$1",
             "(.*) - Brave Search": "$1",
             "(.*) - Outlook": "$1",
@@ -73,7 +74,7 @@
         "format": " {}",
         "exec": "python ~/private/youtube.py",
         "restart-interval": 600,
-        "on-click": "chromium https://studio.youtube.com",
+        "on-click": "firefox https://studio.youtube.com",
         "tooltip": false
     },
     
@@ -138,14 +139,14 @@
     // Outlook Launcher
     "custom/outlook": {
         "format": "",
-        "on-click": "chromium --app=https://outlook.office.com/mail/",
+        "on-click": "firefox --app=https://outlook.office.com/mail/",
         "tooltip": false
     },
 
     // Teams Launcher
     "custom/teams": {
         "format": "",
-        "on-click": "chromium --app=https://teams.microsoft.com/go",
+        "on-click": "firefox --app=https://teams.microsoft.com/go",
         "tooltip": false
     },
 
@@ -157,11 +158,11 @@
     },    
 
     // ChatGPT Launcher
-    "custom/chatgpt": {
-        "format": " ",
-        "on-click": "chromium --app=https://chat.openai.com",
-        "tooltip": false
-    },
+    //"custom/chatgpt": {
+    //    "format": " ",
+    //    "on-click": "firefox --app=https://chat.openai.com",
+    //    "tooltip": false
+    //},
 
     // Calculator
     "custom/calculator": {

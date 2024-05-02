@@ -43,12 +43,13 @@
             "Foot Server": "Terminal"
         }
     },
-
+    
     // Hyprland Window
     "hyprland/window": {
         "rewrite": {
             "(.*) - Brave": "$1",
             "(.*) - Chromium": "$1",
+            "(.*) - Mozilla Firefox": "$1",
             "(.*) - Brave Search": "$1",
             "(.*) - Outlook": "$1",
             "(.*) Microsoft Teams": "$1"
@@ -133,7 +134,7 @@
         "tooltip": false
     },
 
-    // ChatGPT Launcher
+   //  ChatGPT Launcher
     "custom/chatgpt": {
         "format": "",
         "on-click": "chromium --app=https://chat.openai.com",

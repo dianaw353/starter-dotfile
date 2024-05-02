@@ -48,7 +48,7 @@
         "idle_inhibitor",
         "tray",
         "custom/exit",
-        "custom/ml4w-welcome",
+        //"custom/ml4w-welcome",
         "clock"
     ]
 }
