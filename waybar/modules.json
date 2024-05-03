@@ -376,5 +376,13 @@
             "deactivated": ""
         },
         "on-click-right": "hyprlock"        
-    }
+    },
+    // Weather
+    "custom/weather": {
+    "format": "{}°",
+    "tooltip": true,
+    "interval": 3600,
+    "exec": "~/dotfiles/scripts/weather.sh",
+    "return-type": "json"
+    },   
 }

@@ -26,7 +26,7 @@
         "custom/appmenu",
         "group/settings",
         "wlr/taskbar",
-        "group/quicklinks",
+        //"group/quicklinks",
         "hyprland/window",
         "custom/empty"
     ],
@@ -39,6 +39,7 @@
     // Modules Right    
     "modules-right": [
         "custom/updates",
+        "custom/weather",
         "pulseaudio",
         "bluetooth",
         "battery", 

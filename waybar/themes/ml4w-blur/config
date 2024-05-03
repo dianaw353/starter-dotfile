@@ -26,7 +26,7 @@
         "custom/appmenu",
         "group/settings",
         "wlr/taskbar",
-        "group/quicklinks",
+        //"group/quicklinks",
         "hyprland/window",
         "custom/empty"
     ],
@@ -48,7 +48,7 @@
         "idle_inhibitor",
         "tray",
         "custom/exit",
-        "custom/ml4w-welcome",
+        //"custom/ml4w-welcome",
         "clock"
     ]
 }

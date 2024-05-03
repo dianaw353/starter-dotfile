@@ -34,8 +34,8 @@
         "custom/settings",
         "custom/waybarthemes",
         "custom/wallpaper",
-        // "wlr/taskbar",
-        "group/quicklinks",
+        //"wlr/taskbar",
+        //"group/quicklinks",
         "hyprland/window",
         "custom/starter"
     ],
@@ -57,7 +57,7 @@
         "idle_inhibitor",
         "tray",
         "custom/exit",
-        "custom/ml4w-welcome",
+        //"custom/ml4w-welcome",
         "clock"
     ]
 }
